@@ -37,7 +37,7 @@ function InputStatus() {
       .add({
         status: statuss.current.value,
         name: session.data.user.name,
-        email: session.data?.user?.email,
+//         email: session.data?.user?.email,
         image: session.data.user.image,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       })
