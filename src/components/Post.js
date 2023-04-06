@@ -34,7 +34,7 @@ function Post(props) {
           <div>
             <p className="text-red-500 animate-bounce flex whitespace-nowrap">
               {props.name}{" "}
-              {props.email ? (
+              {props.name === "Yonathan S" ? (
                 <CheckCircleIcon className="text-blue-500 animate-bounce hover:animate-spin" />
               ) : (
                 ""
