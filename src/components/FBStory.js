@@ -22,6 +22,11 @@ const stori = [
     profile: "https://links.papareact.com/4u4",
     src: "https://images.news18.com/ibnlive/uploads/2022/12/lionel-messi.jpg",
   },
+  {
+    nama: "Mark Sukebeg",
+    profile: "https://links.papareact.com/snf",
+    src: "https://links.papareact.com/xql",
+  },
 ];
 
 function FBStory() {

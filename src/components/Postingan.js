@@ -22,8 +22,18 @@ function Postingan() {
     <div>
       {snap && (
         <span className="m-4">
-          <marquee direction="up" height="30px">
-            FacebooX<p>Made In: Tangerang</p>
+          <marquee direction="up" height="40px">
+            <p className="text-blue-700">FacebooX (Clone Facebook)</p>
+            <p>Made In: Tangerang</p>{" "}
+            <p>
+              Made by{" "}
+              <span className="text-red-500 font-medium">
+                Yonathan Simbolon
+              </span>
+            </p>
+            <p className="text-sm">
+              Logout: Click Your Profile Picture in Navbar
+            </p>
           </marquee>
           {snap.docs.map((e) => (
             <Post

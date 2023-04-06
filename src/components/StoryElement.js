@@ -12,6 +12,7 @@ function StoryElement({ src, nama, profile }) {
         // style={{ objectFit: "cover" }} //gakguna
         objectFit="cover"
         layout="fixed"
+        alt="Story Poster"
       />
       <Image
         className="object-cover filter brightness-75 rounded-full lg:rounded-3xl"
@@ -20,6 +21,7 @@ function StoryElement({ src, nama, profile }) {
         layout="fill"
         width={80}
         height={160}
+        alt="Story"
       />
       <p className="absolute opacity-0 lg:opacity-100 bottom-4 w-5/6 text-white font-bold text-sm truncate">
         {nama}
