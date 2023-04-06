@@ -14,7 +14,7 @@ function Login() {
         priority
       />
       <h1
-        onClick={signIn}
+        onClick={() => signIn("facebook")}
         className="p-5 bg-blue-500 rounded-full text-white cursor-pointer"
       >
         Login With Facebook
