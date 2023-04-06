@@ -40,7 +40,7 @@ function Postingan() {
               key={e.id}
               name={e.data().name}
               status={e.data().status}
-              email={e.data().email}
+              // email={e.data().email}
               timestamp={e.data().timestamp}
               image={e.data().image}
               gambarOnStatus={e.data().gambarOnStatus}
